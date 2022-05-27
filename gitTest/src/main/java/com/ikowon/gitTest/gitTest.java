@@ -11,7 +11,6 @@ public class gitTest {
 
 	@RequestMapping(value = "/test")
 	public String home(Locale locale, Model model) {
-		System.out.println("테스트중");
 		return "test";
 	}
 	
