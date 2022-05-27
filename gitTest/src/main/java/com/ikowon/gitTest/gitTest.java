@@ -11,7 +11,7 @@ public class gitTest {
 
 	@RequestMapping(value = "/test")
 	public String home(Locale locale, Model model) {
-		 
+		
 		return "test";
 	}
 	
